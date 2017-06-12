@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="s_and_l">SIGHTS &amp; LANDMARKS</string>
+    <string name="sec17">Sector 17 Market </string>
+    <string name="elante">ELANTE MALL</string>
+    <string name="ncm">NORTH COUNTRY MALL</string>
+    <string name="lake">Sukhna Lake</string>
+    <string name="rock">Rock Garden</string>
+    <string name="garden4">Pinjore Garden</string>
+    <string name="garden3">Terraced Garden</string>
+    <string name="garden2">Shanti Kunj</string>
+    <string name="garden1">Rose Garden</string>
+    <string name="capitol">Capitol Complex</string>
+    <string name="museum1">Govt. Museum And Art Gallery</string>
+    <string name="ohm">Open Hand Monument</string>
+    <string name="lcc">Le Corbusier Centre</string>
+
+</resources>

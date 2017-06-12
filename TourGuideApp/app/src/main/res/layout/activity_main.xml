@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.tourguideapp.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/chd"
+            android:src="@drawable/chd"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="1dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_and_l"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:background="@android:color/holo_green_light"
+            android:id="@+id/sightsAndLandmarks"
+            android:padding="22dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Museums"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:padding="22dp"
+            android:id="@+id/museums"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/holo_red_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gardens"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:id="@+id/gardens"
+            android:padding="22dp"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shopping Malls"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:id="@+id/shoppingmalls"
+            android:background="@android:color/holo_blue_dark"
+            android:padding="22dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="2dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
