@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MusicStudio</string>
+    <string name="title_activity_search_song">SearchSong</string>
+</resources>

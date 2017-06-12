@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicstudioapp.NowPlayingPlaylist"
+    android:orientation="vertical"
+    android:background="@drawable/music2"
+    android:padding="18dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Playlist"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Songs"
+        android:paddingTop="20dp"
+        android:textAlignment="center"
+        android:id="@+id/curentplaying"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Releases Search"
+        android:textSize="24sp"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#8888"
+        android:textAllCaps="false"
+        android:id="@+id/search_online"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Songs in Library"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:background="#8888"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/all_songs"/>
+
+</LinearLayout>

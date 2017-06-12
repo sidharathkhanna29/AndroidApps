@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/music3"
+    android:padding="18dp"
+    tools:context="com.example.android.musicstudioapp.search_songs">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#8888"
+        android:fontFamily="serif-monospace"
+        android:text="Search Songs Online"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:textSize="30sp"
+        android:id="@+id/final_search"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:background="#b8b7bb"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ANDROID PAY API is used to buy Songs online"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="#000000"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="media library"
+        android:textSize="30sp"
+        android:id="@+id/media_library1"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:background="#b8b7bb"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

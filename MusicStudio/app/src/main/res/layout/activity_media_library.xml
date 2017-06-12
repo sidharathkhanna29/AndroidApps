@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/media_library"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/music4"
+    tools:context="com.example.android.musicstudioapp.media_library">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Songs List"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Music"
+        android:id="@+id/search_button"
+        android:textSize="20sp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listen to songs on Wynk App using MediaPlayer class"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Playlist"
+        android:id="@+id/playlistview"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listen to songs recently pLayed using AudioManager class"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
