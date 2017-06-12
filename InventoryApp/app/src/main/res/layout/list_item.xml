@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="qwertyuiop"
+            android:textColor="#2B3D4D"
+            android:textSize="25sp" />
+
+        <TextView
+
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdfghjkl"
+            android:textColor="#514789"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sell_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:text="Sell"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
