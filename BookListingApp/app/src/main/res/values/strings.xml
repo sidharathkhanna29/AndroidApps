@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BookListingApp</string>
+    <string name="net_connection">You are Ofline \n Check your net Connection</string>
+</resources>
