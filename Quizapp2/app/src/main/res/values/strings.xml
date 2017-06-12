@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="q1">Q1. How many number of times can you take away 2 from 100 ?</string>
+    <string name="q2">Q2. Which one of these is correct ?\na) 7 + 6  IS  12 \nb) 7 + 6  ARE  12</string>
+    <string name="q3">Q3. A + D + 8 = ?</string>
+    <string name="q4">Q4. There are 2 mothers, 2 daughters, 1 grandma and 1 grandaughter. How many people are there ?</string>
+    <string name="q5">Q5. I walk into a room where there are 10 people in who are 20 years old 10 who are 19, 10 who are 18 and 10 who are 30. How many people are there in the room ?</string>
+    <string name="q6">Q6. Find value of X if\n 1 + 4 = 5\n 2 + 5 = 12\n 3 + 6 = 21\n 5 + 8 = X</string>
+</resources>
