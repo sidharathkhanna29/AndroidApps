@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DailyNewsApp</string>
+    <string name="settings_category_key" translatable="false">category</string>
+    <string name="no_news">Retry</string>
+    <string name="noInternet">No Internet Connection</string>
+    <string name="menuItems">Settings</string>
+    <string name="categoryLabel">Suggested Topics</string>
+    <string name="setKey">music</string>
+    <string name="setCatDefault" translatable="false">@string/setDValue</string>
+    <string name="setDLabel" translatable="false">Music</string>
+    <string name="setDValue" translatable="false">music</string>
+    <string name="setTLabel">Technology</string>
+    <string name="setSLabel">Sports</string>
+    <string name="setBLabel">Entertainment</string>
+    <string name="setTValue" translatable="false">Technology</string>
+    <string name="setSValue">sports</string>
+    <string name="setBValue" translatable="false">entertainment</string>
+</resources>

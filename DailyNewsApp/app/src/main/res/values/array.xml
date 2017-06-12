@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsByLabel">
+        <item>@string/setDLabel</item>
+        <item>@string/setTLabel</item>
+        <item>@string/setSLabel</item>
+        <item>@string/setBLabel</item>
+    </string-array>
+
+    <string-array name="settingsByValue">
+        <item>@string/setDValue</item>
+        <item>@string/setTValue</item>
+        <item>@string/setSValue</item>
+        <item>@string/setBValue</item>
+    </string-array>
+</resources>
